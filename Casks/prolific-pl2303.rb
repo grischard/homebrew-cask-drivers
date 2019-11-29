@@ -1,8 +1,8 @@
 cask 'prolific-pl2303' do
-  version '1.6.1_20171018,1.6.1_20160309'
-  sha256 'c140b2f4d6f222b30986a618f670ad3257c2f6f01c0076f3f713fa786561c3ad'
+  version '2.0.0_20191112'
+  sha256 '37d8b69952a12718f836a5d808325337ad45f63fb103b729d788245f76d65a6d'
 
-  url "http://www.prolific.com.tw/UserFiles/files/PL2303_MacOSX_#{version.before_comma.dots_to_underscores}.zip"
+  url "http://www.prolific.com.tw/UserFiles/files/PL2303HXD_G_Driver_#{version.before_comma.dots_to_underscores}.zip"
   name 'Prolific USB to Serial Cable driver'
   homepage 'http://www.prolific.com.tw/US/'
 
